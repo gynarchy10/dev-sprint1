@@ -1,3 +1,11 @@
 *** Cut and paste the for loop here ***
+			 <pre>                           
+				{% for message in messages %}
+{{message}}
+				{% endfor %}
+			</pre>
+
+
 
 *** What is the for loop doing? ***
+For every message in messages, return a message.
